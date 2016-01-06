@@ -45,8 +45,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Moves\BasicMove.cs" />
+     <Compile Include="Assets\Scripts\Moves\BaseMove.cs" />
+     <Compile Include="Assets\Scripts\Moves\MoveDex.cs" />
      <Compile Include="Assets\Scripts\StatusEffect.cs" />
+     <Compile Include="Assets\Scripts\Units\Unit.cs" />
+     <None Include="Assets\Resources\DataFiles\Moves.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
